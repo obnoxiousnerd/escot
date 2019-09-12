@@ -305,4 +305,3 @@ function carboxylicAcid(name){
         output.textContent = "Couldn't fetch the formula alkyne";
     }
 }
-const haloalkene = function)(name){}
