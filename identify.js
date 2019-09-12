@@ -1,4 +1,4 @@
-const alkane = function(name){
+function alkane(name){
     var c, h;
     var formula;
     if(name.startsWith('meth')){
@@ -152,8 +152,7 @@ function alkene(name){
         output.textContent = "Couldn't fetch the formula alkene";
     }
 }
-
-const alkyne = function(name){
+function alkyne(name){
     var c, h;
     var formula;
     if(name.startsWith('meth')){
@@ -227,7 +226,7 @@ const alkyne = function(name){
     }
 }
 
-const carboxylicAcid = function(name){
+function carboxylicAcid(name){
     var c, h;
     var formula;
     if(name.startsWith('meth')){
